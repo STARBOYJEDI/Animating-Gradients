@@ -20,6 +20,18 @@ body {
     line-height: 1.6;
     color: #333;
     background: #ddd;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: bg-animation 10s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 
 .content {
