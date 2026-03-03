@@ -41,6 +41,17 @@ body {
     box-shadow: 0 0 3em rgba(0, 0, 0, 0.15);
 }
 
+.title {
+    margin: 0 0 0.5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    color: #ee6352;
+    line-height: 0.8;
+    margin: 0;
+}
+
 .fun {
     border: 0;
     cursor: pointer;
