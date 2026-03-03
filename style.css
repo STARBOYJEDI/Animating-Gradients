@@ -10,6 +10,17 @@
     );
 }
 
+body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+}
 
 .fun {
     border: 0;
