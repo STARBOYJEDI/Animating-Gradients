@@ -46,10 +46,16 @@ body {
     text-transform: uppercase;
     font-weight: 900;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 6rem;
     color: #ee6352;
     line-height: 0.8;
     margin: 0;
+
+    background-image: var(--gradient);
+    background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: bg-animation 5s infinite alternate;
 }
 
 .fun {
